@@ -13,7 +13,7 @@ class MessageTasks(TaskSet):
     })
   
 class WebsiteUser(HttpLocust):
-  host = "http://127.0.0.1:7000"
+  host = "http://127.0.0.1:4000"
   min_wait = 2000
   max_wait = 2500
   task_set = MessageTasks
