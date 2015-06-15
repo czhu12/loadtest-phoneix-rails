@@ -26,4 +26,4 @@ production:
   database: rails_messages_prod
   username: rails_messages_prod
   password: rails_messages_prod
-  pool: 5
+  pool: 20
